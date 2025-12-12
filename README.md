@@ -1,12 +1,15 @@
-srsRAN Project
+# Uncovering Security Weaknesses in srsRAN with CodeQL: A Static Analysis Approach for Next-Gen RAN Systems
 ==============
 
 [![Build Status](https://github.com/srsran/srsRAN_Project/actions/workflows/ccpp.yml/badge.svg?branch=main)](https://github.com/srsran/srsRAN_Project/actions/workflows/ccpp.yml)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7868/badge)](https://www.bestpractices.dev/projects/7868)
 
-The srsRAN Project is a complete 5G RAN solution, featuring an ORAN-native CU/DU developed by [SRS](http://www.srs.io).
+# Project Description
 
-The solution includes a complete L1/2/3 implementation with minimal external dependencies. Portable across processor architectures, the software has been optimized for x86 and ARM. srsRAN follows the 3GPP 5G system architecture implementing the functional splits between distributed unit (DU) and centralized unit (CU). The CU is further disaggregated into control plane (CU-CP) and user-plane (CU-UP).
+Uncovering Security Weaknesses in srsRAN with CodeQL is a static analysis project that examines security vulnerabilities in the srsRAN open-source 5G RAN using CodeQL. The project analyzes the C/C++ codebase to identify issues such as memory safety bugs, unsafe API usage, cryptographic weaknesses, hardcoded secrets, and improper input validation, highlighting potential risks like denial-of-service, privilege escalation, and data leakage.
+
+
+The srsRAN Project is a complete 5G RAN solution, featuring an ORAN-native CU/DU developed by [SRS](http://www.srs.io).
 
 See the [srsRAN Project](https://www.srsran.com/) for information, guides and project news.
 
